@@ -18,7 +18,7 @@ const Sidebar = () => (
             {/* <img src={LogoS} alt="logo" />
             <img className= "sub-logo" src={LogoSubtitle} alt="slobodan" />   */}
             <h1>
-                SYDNEY ROSE LAUB
+                Sydney <br/> Rose <br /> Laub
             </h1>
 
         <nav>
