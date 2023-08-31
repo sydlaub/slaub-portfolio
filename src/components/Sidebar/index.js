@@ -5,7 +5,8 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, 
     faHome, 
-    faUser } from '@fortawesome/free-solid-svg-icons'
+    faUser,
+faCode } from '@fortawesome/free-solid-svg-icons'
 import {
     faLinkedin,
     faGithub,
@@ -34,6 +35,14 @@ const Sidebar = () => (
             className="about-link" 
             to="/about">
                 <FontAwesomeIcon icon={faUser} color="#3266AE" />
+            </NavLink>
+
+            <NavLink
+                exact="true"
+                activeclassname="active"
+                className="work-link"
+                to="/mywork">
+                <FontAwesomeIcon icon={faCode} color="#3266AE" />
             </NavLink>
 
             <NavLink 
