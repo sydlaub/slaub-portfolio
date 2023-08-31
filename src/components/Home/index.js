@@ -6,13 +6,15 @@ import './index.scss'
 
 const Home = () => {
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi, I'm Sydney</h1>
-                <h2>I'm a question-asker, full-stack web developer, cylclist, intuitive decision maker, fresh New Yorker, playlist-maker, data engineer, Detroit Lions Fan, Eucher player, reader, empath, problem solver, avid concert go-er and much more.</h2>
+                <h1>Hi! <br/> I'm Syd.</h1>
+                <h2>WEB DEVELOPER. PROBLEM SOLVER. CREATIVE THINKER.</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
         </div>
+        </>
     )
 }
 
