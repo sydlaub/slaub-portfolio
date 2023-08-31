@@ -1,6 +1,6 @@
 .nav-bar {
-    background: #C5D9E2;
-    width: 75px;
+    background: #E0E9F6;
+    width: 100px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -10,9 +10,10 @@
     h1 {
         display: block;
         padding: 8px 0;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 15px;
+        font-family: 'Raleway';
+        font-size: 20px;
         text-align: center;
+        text-decoration: none;
 
 
         // img {
@@ -37,8 +38,8 @@
         width: 100%;
 
         a {
-            font-size: 22px;
-            color: #083D77;
+            font-size: 30px;
+            color: #3266AE;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -63,7 +64,7 @@
 
             &:after {
                 content: '';
-                font-size: 9px;
+                font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -93,8 +94,32 @@
          }
 
          a.active {
-            
-         }
+            svg {
+                color: #3266AE;
 
+            }
+         }
+    }
+
+    ul {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+
+        li {
+            padding: 7px;
+            display: block;
+            font-size: 20px;
+            line-height: 16px;
+
+            &:hover svg {
+                color: #12263A;
+            }
+        }
     }
 }
